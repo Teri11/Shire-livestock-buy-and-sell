@@ -272,4 +272,23 @@ background-color: #191e34;
 color: #fff;
 }
 
+.container >h1{
+  
+  margin-left: 38rem;
+  font-family:'Big Shoulders Stencil Text'
+}
+#image{
+  height: 20rem;
+  margin-top: -4rem;
+  
+}
+.para{
+  margin-left: 38rem;
+  margin-top: -13rem;
+  color: black;
+  font-family:'Big Shoulders Stencil Text';
+  
+}
+
+
 
