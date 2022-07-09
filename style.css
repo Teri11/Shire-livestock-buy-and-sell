@@ -393,7 +393,7 @@ a:link,a:active,a:visited,a:hover{
 {
 	width: 100%;
     min-height: 100vh;
-    background: #EDF2F8;
+    background: #f8f8f8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -562,3 +562,4 @@ a:link,a:active,a:visited,a:hover{
 		position: relative;
 	}
 }
+
