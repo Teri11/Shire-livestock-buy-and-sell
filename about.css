@@ -7,10 +7,24 @@
  #extra{
   color: green;
  }
+ #button1{
+  margin-left: 34rem;
+ }
  .container-fluid> p{
   color:black;
   text-align: center;
   font-family: 'Lora', serif;
 font-family: 'Oswald', sans-serif;
 font-size: large;
+ }
+ .image1{
+  height:19rem ;
+  width:25rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  border-radius: 1rem 1rem;
+ }
+ .image2{
+  height:19rem ;
+  width:25rem; 
  }
