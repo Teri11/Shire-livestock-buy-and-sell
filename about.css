@@ -102,6 +102,7 @@ li {
 	top: 50px;
 	right: 10px;
 	transition: all 0.3s ease-in-out;
+  color: green;
 }
 .tilesWrap li h3 {
 	font-size: 20px;
@@ -179,27 +180,27 @@ li {
 }
 .tilesWrap li:nth-child(1):before {
 	background: #C9FFBF;
-background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
-background: linear-gradient(to right, #FFAFBD, #C9FFBF);
+  background: -webkit-linear-gradient(to right, #ffc500, green);
+  background: linear-gradient(to right, #ffc500, green);
 }
 .tilesWrap li:nth-child(2):before {
 	background: #f2709c;
-background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
-background: linear-gradient(to right, #ff9472, #f2709c);
+  background: -webkit-linear-gradient(to right, #ffc500, green);
+  background: linear-gradient(to right, #ffc500, green);
 }
 .tilesWrap li:nth-child(3):before {
-	background: #c21500;
-background: -webkit-linear-gradient(to right, #ffc500, #c21500);
-background: linear-gradient(to right, #ffc500, #c21500);
+	background: green;
+background: -webkit-linear-gradient(to right, #ffc500, green);
+background: linear-gradient(to right, #ffc500, green);
 }
 .tilesWrap li:nth-child(4):before {
 	background: #FC354C;
-background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
-background: linear-gradient(to right, #0ABFBC, #FC354C);
+  background: -webkit-linear-gradient(to right, #ffc500, green);
+  background: linear-gradient(to right, #ffc500, green);
 }
 .tilesWrap li:nth-child(5):before {
 	background: #FC354C;
-background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
-background: linear-gradient(to right, #0ABFBC, #FC354C);
+  background: -webkit-linear-gradient(to right, #ffc500, green);
+  background: linear-gradient(to right, #ffc500, green);
 }
 /* moral values end */
