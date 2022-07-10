@@ -576,7 +576,7 @@ a:link,a:active,a:visited,a:hover{
 body {
     background-color: #fdf9fd;
     color: #011a32;
-    font: 16px/1.25 'Raleway', sans-serif;
+    font: 15px/1.25 'Raleway', sans-serif;
     text-align: center;
 }
 
@@ -608,7 +608,7 @@ h1:hover {
 }
 
 a {
-    color: #024794;
+    color: green;
 }
 
 a:hover {
@@ -655,10 +655,10 @@ a:hover {
     80% {  
         transform: translateY(0);
         text-shadow: 
-            0 0 0 #0c2ffb, 
+            0 0 0 green, 
             0 0 0 #2cfcfd, 
-            0 0 0 #fb203b, 
-            0 0 0 #fefc4b;
+            0 0 0 grey, 
+            0 0 0 black;
     }
 }
 
