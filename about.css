@@ -7,9 +7,7 @@
  #extra{
   color: green;
  }
- #button1{
-  margin-left: 34rem;
- }
+ 
  .container-fluid> p{
   color:black;
   text-align: center;
@@ -18,7 +16,7 @@ font-family: 'Oswald', sans-serif;
 font-size: large;
  }
  .image1{
-  height:19rem ;
+  height:29rem ;
   width:25rem;
   margin-top: 2rem;
   margin-left: 1rem;
@@ -26,5 +24,27 @@ font-size: large;
  }
  .image2{
   height:19rem ;
-  width:25rem; 
+  width:25rem;
+  margin-top: 2rem;
+  border-radius: 1rem 1rem;
+  float: right;
+  
+ }
+ .line44{
+  float: right;
+  margin-top: 3rem;
+  
+  font-family: 'Oswald', sans-serif;
+  margin-right: 8rem;
+  font-size: 2.5rem;
+  color: black;
+ }
+ .container >p{
+  margin-left: 29rem;
+  margin-top: -25rem;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+  color: black;
  }
