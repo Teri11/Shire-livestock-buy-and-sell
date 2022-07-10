@@ -177,7 +177,7 @@ padding-left: 30px;
 margin-bottom: 40px;
 font-size: 16px;
 line-height: 26px;
-color: #848484;
+color: black;
 font-weight: 400;
 }
 
@@ -272,6 +272,10 @@ background-color: #191e34;
 color: #fff;
 }
 
+
+
+
+/* haulage start */
 .container >h1{
   
   margin-left: 38rem;
@@ -290,6 +294,9 @@ color: #fff;
   font-family:'Big Shoulders Stencil Text';
   
 }
+/* haulage end */
+
+
 
 
 @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,700");
@@ -320,12 +327,12 @@ body {
 .container h1::before {
 	content: '─';
 	margin-right: 0.6em;
-	color: #686868;
+	color: green;
 }
 .container h1::after {
 	content: '─';
 	margin-left: 0.6em;
-	color: #686868;
+	color: green;
 }
 .boxes {
 	margin-top: 100px;
@@ -376,9 +383,13 @@ body {
 	letter-spacing: 1px;
 	font-family: Lora, serif;
 }
+/* animals on market end */
 
 
 
+
+
+ /* what farmers say start */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 body{
 	margin: 0;
@@ -563,7 +574,13 @@ a:link,a:active,a:visited,a:hover{
 		position: relative;
 	}
 }
+/* what farmers say end */
 
+
+
+
+
+/* glitch start */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
 
@@ -668,3 +685,4 @@ a:hover {
       transition: none !important;
     }
 }
+/* end of glitch */
