@@ -6,149 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+  <link rel="shortcut icon" href="https://images.unsplash.com/photo-1558954350-2bc4ea82347f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGxpdmVzdG9ja3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60" type="image/x-icon">
   <link rel="stylesheet" href="about.css">
   <title>About Us</title>
 </head>
 <body>
- 
-<!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container-fluid">
-  <!-- Footer -->
-  <footer
-          class="text-center text-lg-start text-white"
-          style="background-color: green"
-          >
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">
-              <strong>SHIRE LIVESTOCK BUY & SELL</strong>
-            </h6>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, laborum repudiandae qui facere explicabo harum nobis quidem quis sint. Magnam, corporis ab inventore obcaecati vitae debitis consequatur neque autem reiciendis.
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-            <p>
-              <a href="index.html" class="text-white">Home</a>
-            </p>
-            <p>
-              <a class="text-white">About Us</a>
-            </p>
-            <p>
-              <a class="text-white">Sell on Shire</a>
-            </p>
-            <p>
-              <a class="text-white">Contact Us</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-            <p><i class="fa fa-home mr-3"></i> Nairobi, 300 , Kenya</p>
-            <p><i class="fa fa-envelope mr-3"></i> shirelivestock@gmail.com</p>
-            <p><i class="fa fa-phone mr-3"></i> + 254 723000000</p>
-            <p><i class="fa fa-print mr-3"></i> + 254 720000000</p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
-
-            <!-- Facebook -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #3b5998"
-               href="https://www.facebook.com/login/"
-               role="button"
-               ><i class="fa fa-facebook"></i></a>
-
-            <!-- Twitter -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #55acee"
-               href="https://twitter.com/i/flow/login"
-               role="button"
-               ><i class="fa fa-twitter"></i
-              ></a>
-
-            <!-- Google -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #dd4b39"
-               href="https://www.google.com/account/about/"
-               role="button"
-               ><i class="fa fa-google"></i
-              ></a>
-
-            <!-- Instagram -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #ac2bac"
-               href="https://www.instagram.com/accounts/login/"
-               role="button"
-               ><i class="fa fa-instagram"></i
-              ></a>
-
-            <!-- Linkedin -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #0082ca"
-               href="https://www.linkedin.com/home"
-               role="button"
-               ><i class="fa fa-linkedin"></i
-              ></a>
-            <!-- Github -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #333333"
-               href="https://github.com/Teri11/Shire-livestock-buy-and-sell"
-               role="button"
-               ><i class="fa fa-github"></i
-              ></a>
-          </div>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img style="height: 36rem;" src="https://images.unsplash.com/photo-1597083950601-205d28892ebd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGxpdmVzdG9ja3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
         </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
+      </div>
+      <div class="carousel-item " data-bs-interval="2000">
+        <img style="height: 36rem;" src="https://images.unsplash.com/photo-1540561852629-2655ee1eaee1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fGxpdmVzdG9ja3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="height: 36rem;" src="https://images.unsplash.com/photo-1548781518-d5f5e6a5e281?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpZ3N8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
     </div>
-    <!-- Grid container -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container-fluid">
+    <h1>ABOUT <span id="extra">US</span></h1>
+    <p>Shire-livestock-buy-and-sell.com is the go-to online platform for private & public treaty sales of livestock.<br> On this website you will find categories for all types of livestock, including cattle, goats, sheep,chicken,Rabbits,Ducks,Turkey and Pigs.<br>
 
-    <!-- Copyright -->
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © 2022 Copyright:
-      <a class="text-white" href="https://github.com/Teri11/Shire-livestock-buy-and-sell"
-         >SHIRE LIVESTOCK BUY & SELL</a
-        >
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-</div>
-<!-- End of .container -->
+      Shirelivestock  makes it easy for buyers to find the right livestock for sale. Whether you are in the market for commercial cattle, seed stock, show calves, ram or ewe lambs, sows, boars, dairy or grazing goats, or almost any other type of livestock, you're likely to find what you need on Shire-livestock-buy-and-sell.com.<br>
+      
+      For livestock and equine breeders and sellers, Shire-livestock-buy-and-sell.com provides an easy-to-use cloud-based platform for creating descriptive for-sale listings complete with photos, plus tools for managing inventory and sales.<br> The platform also includes a messaging system that enables buyers to instantly inquire about specific livestock.<br>
+      
+      Shire-livestock-buy-and-sell is a service of all,the company behind serving buyers and sellers in the agriculture sector industries.</p>
+  </div>
+ 
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </html>
