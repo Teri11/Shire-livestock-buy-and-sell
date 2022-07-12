@@ -9,11 +9,11 @@
 }
 
 html {
-  background-color: #ecf9ff;
+  background-color: white;
 }
 
 body {
-  color: #272727;
+  color: white;
   font-family: 'Quicksand', serif;
   font-style: normal;
   font-weight: 400;
@@ -22,12 +22,12 @@ body {
 }
 
 .main{
-  max-width: 1200px;
+  max-width:1100px;
   margin: 0 auto;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 44px;
     font-weight: 400;
     text-align: center;
     font-family:'Big Shoulders Stencil Text', cursive;
