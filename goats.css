@@ -337,3 +337,7 @@
       height: 254px;
   }
 }
+
+.card-text > p{
+  color: black;
+}
