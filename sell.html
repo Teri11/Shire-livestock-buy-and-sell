@@ -1,91 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="shortcut icon" href="https://image.shutterstock.com/image-vector/buy-sell-button-vector-260nw-326992622.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="sell.css" />
-    <title>Sell on Shire</title>
-  </head>
-  <body>
-    <form>
-      <div class="container">
-        <h1><b>Sell on Shire Livestock </b></h1>
-          <label for="firstname"><b>First name</b></label>
-          <input type="text" placeholder="Enter your first name..." name="firstname" required>
-          <label for="lastname"><b>Last name</b></label>
-          <input type="text" placeholder="Enter your last name..." name="lastname" required>
-          <label for="email"><b>Email</b></label>
-          <input type="email" placeholder="Enter your email..." name="email" required> 
-          <label for="idnumber"><b>ID Number</b></label>
-          <input type="number" placeholder="Enter your ID Number..." name="idnumber" required> 
-          <label for="phonenumber"><b>Phone Number</b></label>
-          <input type="number" placeholder="Enter your Phone Number..." name="phonenumber" required> 
-          <label for="livestock"><b>Choose the type of Livestock:</b></label><br>
-          <select name="livestock" id="livestock">
-            <option value="Cows">Cows</option>
-            <option value="Goats">Goats</option>
-            <option value="Sheep">Sheep</option>
-            <option value="Pigs">Pigs</option>
-            <option value="Chicken">Chicken</option>
-            <option value="Rabbits">Rabbits</option>
-            <option value="Turkeys">Ducks</option>
-            <option value="Turkeys">Turkeys</option>
-          </select><br><br>
-          <label for="Quantity"><b>Choose number of animals:</b></label><br>
-          <select name="Quantity" id="Quantity">
-            <option value="a">1-5</option>
-            <option value="Goats">6-10</option>
-            <option value="Sheep">11-20</option>
-            <option value="d">above 20</option>
-          </select><br><br>
-          <label for="Location"><b>Choose your Location:</b></label><br>
-          <select name="Location" id="Location">
-            <option value="Central">Central</option>
-            <option value="Rift Valley">Rift Valley</option>
-            <option value="Western">Western</option>
-            <option value="Eastern">Eastern</option>
-            <option value="Nyanza">Nyanza</option>
-            <option value="Coast">Coast</option>
-            <option value="North Eastern">North Eastern</option>
-            <option value="Nairobi">Nairobi</option>
-          </select><br><br>
-          <button class="submit"><a href="index.html" style="color: white;text-decoration: none;font-weight: bold;">Submit</a></button>
-          <input type="reset">
-      </div>
-      <div class="container">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#" style="color:rgba(59, 186, 38, 1) ;">password?</a></span>
-      </div>
-    </form>
-  </div>
-  <script>
-  var modal = document.getElementById('id01');
-  window.onclick = function(event) {
-      if (event.target == modal) {
-          modal.style.display = "none";
-      }
-  }
-  </script>
-  </body>
-  
-
-  </body>
-  <script src="sell.css"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sell.css">
+    <title>Sell on Shire Livestock page</title>
+</head>
+<body>
+  <form>
+    <div class="container">
+      <h1><b>Sell on Shire Livestock </b></h1>
+        <label for="firstname"><b>First name</b></label>
+        <input type="text" placeholder="Enter your first name" name="firstname" required>
+        <label for="lastname"><b>Last name</b></label>
+        <input type="text" placeholder="Enter your last name" name="lastname" required>
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Enter your email" name="email" required> 
+        <label for="idnumber"><b>ID Number</b></label>
+        <input type="number" placeholder="Enter your ID Number" name="idnumber" required> 
+        <label for="phonenumber"><b>Phone Number</b></label>
+        <input type="number" placeholder="Enter your Phone Number" name="phonenumber" required> 
+        <label for="livestock"><b>Choose the type of Livestock:</b></label><br>
+        <select name="livestock" id="livestock">
+          <option value="Cows">Cows</option>
+          <option value="Goats">Goats</option>
+          <option value="Sheep">Sheep</option>
+          <option value="Pigs">Pigs</option>
+          <option value="Chicken">Chicken</option>
+          <option value="Rabbits">Rabbits</option>
+          <option value="Turkeys">Ducks</option>
+          <option value="Turkeys">Turkeys</option>
+        </select><br><br>
+        <label for="Quantity"><b>Choose number of animals:</b></label><br>
+        <select name="Quantity" id="Quantity">
+          <option value="a">1-5</option>
+          <option value="Goats">6-10</option>
+          <option value="Sheep">11-20</option>
+          <option value="d">above 20</option>
+        </select><br><br>
+        <label for="Location"><b>Choose your Location:</b></label><br>
+        <select name="Location" id="Location">
+          <option value="Central">Central</option>
+          <option value="Rift Valley">Rift Valley</option>
+          <option value="Western">Western</option>
+          <option value="Eastern">Eastern</option>
+          <option value="Nyanza">Nyanza</option>
+          <option value="Coast">Coast</option>
+          <option value="North Eastern">North Eastern</option>
+          <option value="Nairobi">Nairobi</option>
+        </select><br><br>
+        <button class="submit"><a href="index.html" style="color: white;text-decoration: none;font-weight: bold;">Submit</a></button>
+        <input type="reset">
+    </div>
+    <div class="container">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#" style="color:rgba(59, 186, 38, 1) ;">password?</a></span>
+    </div>
+  </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
 </html>
