@@ -10,7 +10,7 @@ ul {
 }
 .sec-title .title {
   position: relative;
-  color: #00b8ca;
+  color: green;
   font-size: 18px;
   font-weight: 700;
   padding-right: 50px;
@@ -46,7 +46,7 @@ ul {
 .contact-page-section .inner-container {
   position: relative;
   z-index: 1;
-  background-color: #00b8ca;
+  background-color: green;
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
 }
 .contact-page-section .form-column {
@@ -122,7 +122,7 @@ ul {
 .contact-form input[type="text"]:focus,
 .contact-form input[type="email"]:focus,
 .contact-form textarea:focus {
-  border-color: #00b8ca;
+  border-color: green;
 }
 .contact-form textarea {
   height: 250px;
@@ -134,9 +134,9 @@ ul {
   margin-top: 10px;
   text-transform: capitalize;
   padding: 16px 39px;
-  border: 2px solid #00b8ca;
+  border: 2px solid green;
   font-family: Arimo, sans-serif;
-  background: #00b8ca;
+  background: green;
   display: inline-block;
   position: relative;
   line-height: 24px;
@@ -144,8 +144,8 @@ ul {
   color: #fff;
 }
 .contact-form .theme-btn:hover {
-  color: #00b8ca;
-  border-color: #00b8ca;
+  color: green;
+  border-color: green;
   background: 0 0;
 }
 .contact-form input.error,
