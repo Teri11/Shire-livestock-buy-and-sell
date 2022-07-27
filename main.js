@@ -4,3 +4,4 @@ $(".hover").mouseleave(
     $(this).removeClass("hover");
   }
 );
+
