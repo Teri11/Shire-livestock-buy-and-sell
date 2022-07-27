@@ -22,7 +22,7 @@ This will clone the repositoty into your local folder.
 3. Git
 4. Javascript
 ### Live Site
-View [Live]  https://github.com/Teri11/Shire-livestock-buy-and-sell
+View [Live]  https://teri11.github.io/Shire-livestock-buy-and-sell/
 
 ### Licence
 This project is under the  [MIT](MIT License
