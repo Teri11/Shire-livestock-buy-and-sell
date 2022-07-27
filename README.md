@@ -2,10 +2,7 @@
  Shire_Livestock_Buy_and_Sell  https://teri11.github.io/Shire-livestock-buy-and-sell/
 
  # Author
-Memory Wabwile.<br>
-Kubai Augustine Mweteri.<br>
-Mercy Bore.<br>
-Hillary Kipkechem.
+ Kubai Augustine Mweteri.
 ### Description
 This is a website that allows farmers to sell livestock. It has four main pages which are Home, About, Menu, Contacts.
 We also have additional pages which are Login, Signup and seller Pages.
