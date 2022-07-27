@@ -27,7 +27,7 @@ View [Live]  https://github.com/Teri11/Shire-livestock-buy-and-sell
 ### Licence
 This project is under the  [MIT](MIT License
 
-Copyright (c) [2021] [Memory Wabwile, Kubai Augustine Mweteri, MercyBore, Hillary Kipkechem.]
+Copyright (c) [2022] [Kubai Augustine Mweteri]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
